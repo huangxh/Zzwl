@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>栏目列表</title>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+    <link href="../css/iconfont.css" rel="stylesheet" type="text/css">
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+	a{
+		text-decoration:none;
+		outline: none;
+
+	}
+	a:hover{
+		text-decoration:none;
+		outline: none;
+	}
+    </style>
+</head>
+
+
+
+<body>
+	<div class="container-fluid">
+		
+		<br/>
+		
+		<br/>
+	<form action="" method="post">
+		<a href="" style="height:50px;width:50px;"><i class="icon icon-untitled80"></i></a>
+		<!-- <input type="submit" value="删除选中" class="btn btn-danger" style="margin-bottom:10px;" onclick="return confirm('是否删除选中项？'	);"> -->
+		<a href="" style="height:50px;width:50px;"><i class="icon icon-add"></i></a>
+		<!-- <a class="btn btn-success" href="#" style="margin-top:-10px;">添加顶级栏目</a> -->
+		<br/>
+		
+	<table class="table table-hover table-striped" style="text-align:center;">
+		<tr>
+			<th style="text-align:center;">
+				<input type="checkbox" id="SelectAll" aria-label="..." onclick="selectAll();"/>
+			</th>
+			<th style="text-align:center;">栏目名称</th>
+			<th style="text-align:center;">栏目类型</th>
+			<th style="text-align:center;">访问</th>
+			<th style="text-align:center;">操作</th>
+		</tr>
+		
+		<tr>
+			<td>
+				<input type="checkbox" id="subcheck" name="keyid[]" value="value" />
+			</td>
+			<td style="text-align:left;">n</td>
+			<td>a</td>
+			<td>3</td>
+			<td>
+				<a href="" style="height:50px;width:50px;"><i class="icon icon-add"></i></a>
+				<!-- <a class="btn btn-success" style="padding:0px 2px 0px 2px" href="#">添加子栏目</a> -->
+				<a href="" style="height:50px;width:50px;"><i class="icon icon-edit"></i></a>
+				<!-- <a class="btn btn-primary" style="padding:0px 2px 0px 2px" href="#">修改</a> -->
+				<a href="" style="height:50px;width:50px;"><i class="icon icon-del"></i></a>
+				<!-- <a class="btn btn-danger" style="padding:0px 2px 0px 2px" href="#" onclick="return confirm('是否删除？');">删除</a> -->
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="checkbox" id="subcheck" name="keyid[]" value="value" onclick="setSelectAll();"/>
+			</td>
+			<td style="text-align:left;">n</td>
+			<td>a</td>
+			<td>3</td>
+			<td>
+				<a href="" style="height:50px;width:50px;"><i class="icon icon-add"></i></a>
+				<!-- <a class="btn btn-success" style="padding:0px 2px 0px 2px" href="#">添加子栏目</a> -->
+				<a href="" style="height:50px;width:50px;"><i class="icon icon-edit"></i></a>
+				<!-- <a class="btn btn-primary" style="padding:0px 2px 0px 2px" href="#">修改</a> -->
+				<a href="" style="height:50px;width:50px;"><i class="icon icon-del"></i></a>
+				<!-- <a class="btn btn-danger" style="padding:0px 2px 0px 2px" href="#" onclick="return confirm('是否删除？');">删除</a> -->
+			</td>
+		</tr>
+		
+				
+
+
+	</table>
+	</form>
+	
+	</div>
+</body>
+</html>

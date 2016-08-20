@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <title>网站实例</title>
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./css/iconfont.css" rel="stylesheet">
+    <script src="./js/jquery-1.9.1.min.js"></script>
+   <script src="./js/bootstrap.min.js"></script>
+   <script src="./js/main.js"></script>
+  </head>
+  <body class="">
+      <div class="header">
+        <header>
+          <nav class="navbar-default" role="navigation">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" 
+                 data-target="#example-navbar-collapse">
+                 <span class="sr-only">切换导航</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+              </button>
+              <div class="pull-left">
+                <a href="#" class="navbar navbar-brand">
+                  <img src="./images/logo.png">
+                  <span>后台管理系统</span>
+                </a>
+              </div>
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav" id="topmenu">
+                   <li ><a href="./index.html"><i class="icon icon-home"></i><span>首页</span></a></li>
+                   <li class="active"><a href="./user.html"><i class="icon icon-user"></i><span>用户</span></a></li>
+                   <li><a href="#"><i class="icon icon-book"></i><span>信息</span></a></li>
+                   <li><a href="#"><i class="icon icon-wechat1193418easyiconnet"></i><span>微信</span></a></li>
+                   <li><a href="./system.html"><i class="icon icon-dayinjiprinter59"></i><span>系统</span></a></li>
+                </ul>
+                <div class="pull-right user text-right dropdown" role="navigation">
+                    <ul class="ace-nav">
+                      <li class="grey">
+                        <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                          <i class="icon icon-wallet"></i><span class="badge badge-important">4</span>
+                        </a>
+                      </li>
+                      <li class="purple">
+                        <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                          <i class="icon icon-msgsystem"></i><span class="badge badge-important">8</span>
+                        </a>
+                      </li>
+                      <li class="green">
+                        <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                          <i class="icon icon-mail"></i><span class="badge badge-important">8</span>
+                        </a>
+                      </li>
+                      <li class="light-blue">
+                        <a class="dropdown-toggle" href="#" id="dropdownMenu1" data-toggle="dropdown">
+                          <img class="nav-user-photo" alt="Jason's Photo" src="./images/avatar2.png">
+                          <span class="user-info">
+                          <small>欢迎光临,</small>
+                          Jason
+                          </span>
+                          <span class="arrow glyphicon glyphicon-chevron-down"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                          <li role="presentation">
+                             <a role="menuitem" tabindex="-1" href="#"><i class="icon icon-untitled28" style="font-size: 18px;"></i> 设置</a>
+                          </li>
+                          <li role="presentation">
+                             <a role="menuitem" tabindex="-1" href="#"><i class="icon icon-checkmarkcircle" style="font-size: 18px;"></i> 修改密码</a>
+                          </li>
+                          <li role="presentation">
+                             <a role="menuitem" tabindex="-1" href="#"><i class="icon icon-tuichu" style="font-size: 18px;"></i> 退出</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+
+                </div>
+             </div>
+          </nav>
+        </header>
+      </div>
+      <div class="menu-left" id="mainLeft">
+      	<div class="left-menu" >
+	      		<ul class="nav nav-list menuaccordion" >
+	      			<li>
+	      				<a href="#" class="dropdown-toggle flip" >
+	      					<i class="icon icon-jilu" style="font-size: 18px;"></i>
+	      					<span>文章</span>
+	      					<span class="pull-right arrow glyphicon glyphicon-chevron-down"></span>
+	      				</a>
+	      				<ul class="submenu">
+	      					<li>
+	      						<a href="./article/a.html" target="iframe" class="url">添加</a>
+	      					</li>
+	      				</ul>
+	      			</li>
+	      			<li >
+	      				<a href="#" class="dropdown-toggle flip " >
+	      					<i class="icon icon-tupian" style="font-size: 18px;"></i>
+	      					<span>相册</span>
+	      					<span class="pull-right arrow glyphicon glyphicon-chevron-down"></span>
+	      				</a>
+	      				<ul class="submenu">
+	      					<li>
+	      						<a href="./article/b.html" target="iframe" class="url">添加</a>
+	      					</li>
+	      					<li>
+	      						<a href="./article/b.html" target="iframe" class="url">删除</a>
+	      					</li>
+	      				</ul>
+	      			</li>
+	      			<li>
+	      				<a target="iframe" class="dropdown-toggle flip">
+		      					<i class="icon icon-shanchu" style="font-size: 18px;"></i>
+		      					<span>回收站</span>
+		      					<span class="pull-right arrow glyphicon glyphicon-chevron-down"></span>
+		      				</a>		
+	      				<ul class="submenu">
+	      					<li>
+	      						<a href="./article/c.html" target="iframe" class="url">删除记录</a>
+	      					</li>
+		      			</ul>
+	      			</li>
+	      		</ul>
+      		
+				</div>
+      </div>
+      <div class="menu-right" id="mainRight">
+      	<div class="breadcrumbs">
+      		<ol class="breadcrumb">
+					  <li><i class="icon icon-untitled79" style="font-size: 18px;"></i> <a href="#">Home</a></li>
+					  <li><a href="#">2013</a></li>
+					  <li class="active">十一月</li>
+					</ol>
+      	</div>
+				<iframe id="iframe" src="./article/a.html" name="iframe" width="100%" height="100%" frameborder ="0" marginheight="0" marginwidth="0" frameborder="0" scrolling="yes"></iframe>
+      </div>
+  </body>
+</html>
