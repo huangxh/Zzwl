@@ -351,10 +351,10 @@ li {
 .infobox:hover{
     background-color: #FFFAF0;
 }
-.infobox-container{
-	/*font-size: 0;*/
+/*.infobox-container{
+	font-size: 0;
     text-align: center;
-}
+}*/
 .infobox-green{
 	border-color: #9abc32;
     color: #9abc32;
