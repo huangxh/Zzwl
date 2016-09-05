@@ -459,14 +459,3 @@ li {
 }
 
 /*system首页样式结束*/
-/*system栏目添加界面样式开始*/
-.message{
-    width: 1164px;
-    position: absolute;
-    top: 20px;
-    z-index: 1;
-    display: none;
-}
-
-
-/*system栏目添加界面样式结束*/
